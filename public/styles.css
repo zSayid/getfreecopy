@@ -74,6 +74,19 @@ button:hover {
   font-size: 25px;
 }
 
-.search-hit {
-  color: #0cc26d;
+footer {
+  margin: auto;
+  margin-top: 700px;
+}
+footer p {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer span {
+  color: #6d9df7;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.arxivTitleLink {
+  font-weight: bold;
 }

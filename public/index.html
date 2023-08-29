@@ -12,17 +12,23 @@
       <h1>Get Free Copy</h1>
     </header>
     <main>
-      <form id="search-form">
+      <form id="search-form" >
         <input
           name="term"
           type="text"
           id="search-input"
           placeholder="Search for papers..."
+          class="form-control"
         /> 
-        <button type="submit">Search</button>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i>Search</button>
       </form>
       <section id="search-results"></section>
     </main>
+
+    <footer>
+      <p>
+        <span>GetFreeCopy</span> is suported by Huang lab <a href="https://labs.icahn.mssm.edu/kuanhuanglab/">(ComputationalOmicsLab.org)</a> and Open Box Science <a href="https://openboxscience.org/">(OpenBoxScience.org)</a>
+    </footer>
 
     <script src="./client.js"></script>
   </body>
